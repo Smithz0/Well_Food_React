@@ -11,7 +11,7 @@ const Navbar = () => {
         <ul className='navbar-menu'>
             <li onClick={()=>setmenu("home")} className={menu==="home"?"active":""}>home</li>
             <li onClick={()=>setmenu("menu")} className={menu==="menu"?"active":""}>menu</li>
-            <li onClick={()=>setmenu("moblie-app")} className={menu==="mobile-app"?"active":""}>mobile-app</li>
+            <li onClick={()=>setmenu("mobile-app")} className={menu==="mobile-app"?"active":""}>mobile-app</li>
             <li onClick={()=>setmenu("contact-us")} className={menu==="contact-us"?"active":""}>contact us</li>
 
             </ul>
