@@ -21,6 +21,7 @@
     gap: 30px;
     text-align: center;
     margin: 20px,0px;
+    padding:2px;
     overflow-x: scroll;
 
 }
@@ -58,4 +59,28 @@
     padding:4px;
     
     
+}
+
+.explore-menu-list-item :hover{
+    transform: scale(1.05);
+}
+
+
+
+
+@media(max-width: 1050px){
+/* 
+    .explore-menu-list-item img{
+        width: 20vw;
+        min-width: unset;
+    }
+
+    .explore-menu-list{
+        gap: 15px;
+    } */
+
+    .explore-menu-text{
+        max-width: 100%;
+        font-size: 14px;
+    }
 }
